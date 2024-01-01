@@ -16,9 +16,9 @@ class PostController extends Controller
         return view('post');
     }
 
-    public function content()
+    public function contact()
     {
-        return view('content');
+        return view('contact');
     }
 
     public function about()
